@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Banking</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+        <h1 class="text-center mt-5">Functional Baap er <span class="text-primary"> Bank!!</span></h1>
+    </header>
+    <section>
+        <div class="container w-75  mt-5 text-white">
+            <div class="row gx-3 gy-3">
+              <div class="col-4">
+                <div class="p-3 border bg-success rounded-3">
+                    <h2>Deposit</h2>
+                    <h3>$<span id="total-deposit">00</span></h3>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="p-3 border bg-info rounded-3">
+                    <h2>Withdraw</h2>
+                    <h3>$<span id="total-withdraw">00</span> </h3>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="p-3 border bg-warning rounded-3">
+                    <h2>Balance</h2>
+                    <h3>$<span id="total-balance">1500</span></h3>
+                </div>
+              </div>
+              <div class="col-6">
+                <div class="p-4 border bg-success bg-opacity-50 rounded-3">
+                    <h5 class="mb-3">Please deposit</h5>
+                    <input type="text" class="rounded border w-50" id="deposit-input">
+                    <button class="btn d-block btn-primary mt-3 fw-semibold" id="deposit-btn">Deposit</button>
+                </div>
+              </div>
+              <div class="col-6">
+                <div class="p-4 border bg-danger bg-opacity-50 rounded-3">
+                    <h5 class="mb-3">Please withdraw</h5>
+                    <input type="text" class="rounded border w-50" id="withdraw-input">
+                    <button class="btn d-block btn-primary mt-3 fw-semibold" id="withdraw-btn">Withdraw</button>
+                </div>
+              </div>
+            </div>
+          </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    <!-- <script src="js/bank.js"></script> -->
+    <script src="js/functional.js"></script>
+  </body>
+</html>
